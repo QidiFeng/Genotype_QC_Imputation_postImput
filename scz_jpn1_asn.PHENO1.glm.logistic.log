@@ -1,0 +1,25 @@
+PLINK v2.00a2.3LM 64-bit Intel (24 Jan 2020)
+Options in effect:
+  --bfile scz_jpn1_asn_ml-qc.hg19.ch.fl.bgn
+  --covar /stanley/huang_lab/shared/data/sc-asia/Release/Iwata/jpn1/PCA_files/scz_jpn1_asn_ml-qc.menv.mds
+  --covar-col-nums 4-8
+  --glm
+  --out test
+
+Hostname: uger-c002.broadinstitute.org
+Working directory: /stanley/huang_lab/shared/data/sc-asia/Release/Iwata/jpn1/Imputed_binary_bgn
+Start time: Wed Dec 29 01:19:52 2021
+
+Random number seed: 1640740792
+773217 MiB RAM detected; reserving 386608 MiB for main workspace.
+Using up to 52 threads (change this with --threads).
+1087 samples (543 females, 544 males; 1087 founders) loaded from
+scz_jpn1_asn_ml-qc.hg19.ch.fl.bgn.fam.
+10181455 variants loaded from scz_jpn1_asn_ml-qc.hg19.ch.fl.bgn.bim.
+1 binary phenotype loaded (547 cases, 540 controls).
+5 covariates loaded from /stanley/huang_lab/shared/data/sc-asia/Release/Iwata/jpn1/PCA_files/scz_jpn1_asn_ml-qc.menv.mds.
+Calculating allele frequencies... done.
+--glm logistic regression on phenotype 'PHENO1': done.
+Results written to test.PHENO1.glm.logistic .
+
+End time: Wed Dec 29 01:21:12 2021
