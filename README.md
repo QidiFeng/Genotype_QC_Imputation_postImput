@@ -4,9 +4,10 @@
 
 
 ## Association study by plink
-#PCA of QCed Genotype
+# PCA of QCed Genotype
 
-#Association
+# Association
+
 `/home/unix/qfeng/huang_lab/00_Software/plink2 --bfile imputed_dataset --covar pcafile --covar-col-nums pc1-5colms --glm --out outname`
 
 ## Meta analysis by METAL 
